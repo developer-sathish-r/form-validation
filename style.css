@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 35px;
+}
+
+label {
+    display: block;
+    font:
+        1rem 'Fira Sans',
+        sans-serif;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}
+
+.search-form-comments {
+    height: 00px;
+}
+
+#btn {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: small;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #1b3d4d;
+    color: white;
+    height: 33px;
+    width: 280px;
+}
+
+#errorStreet {
+    margin-left: 20px;
+}
+
+#errorCity {
+    margin-left: 20px;
+}
+
+
+
+#errorArrive {
+    position: absolute;
+    margin-top: 50px;
+}
+
+#errorDepart {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 12px;
+}
+
+hr {
+    border: 0.5px solid black;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+/* #streetcity {
+    padding-left: 15px;
+} */
+
+#arrive {
+    padding: 17px;
+    padding-left: 30px;
+    width: 220px;
+    height: 43px;
+
+}
+
+#depart {
+    margin-left: 5px;
+    padding: 17px;
+    padding-left: 30px;
+    width: 220px;
+    height: 43px;
+}
+
+span #end {
+    margin: 10px;
+    margin-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: small;
+}
+
+.input-icon .fa-calendar {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#people {
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 4px;
+}
+#errorPeople{
+    margin: 6px;
+}
+
+.fa-person {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.input-icon {
+    display: inline-flex;
+}
+
+.count {
+    /* background-color: red !important; */
+    height: 70% !important;
+}
+
+.invalid {
+    color: red;
+    font-size: 12px;
+}
+
+.valid {
+    color: green;
+}
+#comment{
+   padding-bottom: 100px;
+}
